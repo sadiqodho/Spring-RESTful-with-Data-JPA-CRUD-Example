@@ -7,6 +7,9 @@ import javax.persistence.*;
  */
 @Entity
 public class User {
+    /**
+     * Auto increment and Id column
+     */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer id;
