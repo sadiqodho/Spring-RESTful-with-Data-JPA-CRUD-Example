@@ -1,7 +1,7 @@
 # Spring RESTful with Data JPA CRUD Example
 This is an example for bignners who want to learn Spring RESTful services with CRUD example. I have used Data JPA with MySQL database. Here in this project A service where you can retrive all users, retrive user by id, add new user and delete user.
 
-## Setup
+## Environment Setup
 ### Prerequisites
   - Java8 or later
   - Maven
@@ -23,6 +23,11 @@ This is an example for bignners who want to learn Spring RESTful services with C
  ```
  ./mvnw spring-boot:run
  ```
+
+## Dependencies
+- Spring Web
+- Data JPA
+- MySQL connector driver
 
 ## RESTful HTTP requests
 - **Retrive All Users:** Http method GET: http://localhost:8080/get-users
