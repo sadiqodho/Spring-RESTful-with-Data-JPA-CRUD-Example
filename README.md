@@ -35,3 +35,6 @@ This is an example for bignners who want to learn Spring RESTful services with C
 - **Add New User:** http method POST: http://localhost:8080/add-user (form-data)
 - **Delete existing User:** http method DELETE: http://localhost:8080/delete-user?id=1
 
+## Cors Configuration for Angular Application
+I have added new CorsConfiguration class for allowing Cors Mappings of **"GET"**, **"POST"**, **"DELETE"** methods.
+
