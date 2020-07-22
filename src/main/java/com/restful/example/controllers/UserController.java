@@ -10,7 +10,7 @@ import java.util.Optional;
 /**
  * Created by Abro on 5/19/2020.
  */
-@RestController
+@RestController()
 public class UserController {
     @Autowired
     private UserRepository userRepository;
